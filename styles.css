@@ -1,53 +1,76 @@
-.header, .nav {
+#header, #nav {
     border: 1px solid #ccc;
     text-align: center;
     width: 100%;
-    margin-top: 20px;    
-};
+    margin-top: 20px;
+}
 
-.my-cart, .customer-service, .home, .about-us {
+#mycart, #customerservice, #home, #aboutus {
     display: inline-flex;
+    text-align: center;
     justify-content: space-between;
-    flex-direction: column;
-    position: static;
-};
 
-.my-cart{
-    margin-left: 60px;
-    margin-right: 60px;
-};
+    /* flex-direction: column; */
+    /* position: static; */
+}
 
-.customer-service {
+#mycart{
+    padding-left: 20%;
+    padding-right: 10%; 
+} 
+
+
+#customerservice {
     margin-left: 100px;
     position: static;
 };
 
-.about-us {
+#aboutus {
     float: right;
     margin-right: 20px;
     position: static;
 };
 
-.home {
+#home {
     float: left;
     margin-left: 20px;
     position: static;
-};
+}
 
-.aside-left {
+
+#asideleft {
     margin-top: 20px;
     position: static;
     width: 50%;
     border: 1px solid #ccc;
-    margin-bottom: 100px;
-};
+}
 
-.aside-right {
+#asideright {
     position: static;
     float: right;
+    width: 49%;
     border: 1px solid #ccc;
-};
+    margin-bottom: 100px;
+  
 
-.aside-left, .aside-right {
-    text-align: center;  
-};
+}
+
+#asideleft, #asideright {
+    text-align: center;
+    display: inline-flex;
+}
+#flexcontainer {
+    display: flex;
+}
+
+#flexchild {
+    flex: 1;
+    border: 2px solid #ccc;
+}
+
+#footer {
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
