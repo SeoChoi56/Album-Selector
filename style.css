@@ -1,0 +1,4 @@
+.header, .nav, .aside {
+    border: 1px solid #ccc;
+    text-align: center;
+}
