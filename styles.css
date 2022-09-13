@@ -1,8 +1,10 @@
 .header, .nav {
     border: 1px solid #ccc;
     text-align: center;
+
     width: 100%;
-    margin-top: 20px;
+    margin-top: 20px;    
+
 }
 .my-cart, .customer-service, .home, .about-us {
     display: inline-flex;
