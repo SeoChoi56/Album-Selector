@@ -1,3 +1,4 @@
+
 const homeButton = document.querySelector("#home")
 const myCart = document.querySelector("#cart")
 const custService = document.querySelector("#customer")
@@ -31,3 +32,4 @@ function showCustServicePage(){
 function showAboutUsPage(){
     console.log("Bio here")
 }
+
