@@ -1,6 +1,54 @@
-.header, .nav, .aside {
+.header, .nav {
     border: 1px solid #ccc;
+    text-align: center;
+
+    width: 100%;
+    margin-top: 20px;    
+
+}
+.my-cart, .customer-service, .home, .about-us {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: static;
+}
+
+.my-cart{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.customer-service {
+    margin-left: 100px;
+    position: static;
+}
+
+.about-us {
+    float: right;
+    margin-right: 20px;
+    position: static;
+}
+
+.home {
+    float: left;
+    margin-left: 20px;
+    position: static;
+}
+
+.aside-left {
+    margin-top: 20px;
+    position: static;
+    width: 50%;
+    border: 1px solid #ccc;
+    margin-bottom: 100px;
+}
+.aside-right {
+    position: static;
+    float: right;
+    border: 1px solid #ccc;
+}
+
+.aside-left, .aside-right {
     text-align: center;
     
 }
-
