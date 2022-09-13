@@ -4,10 +4,12 @@
     width: 100%;
     margin-top: 20px;
 }
+
 #mycart, #customerservice, #home, #aboutus {
     display: inline-flex;
     text-align: center;
     justify-content: space-between;
+
     /* flex-direction: column; */
     /* position: static; */
 }
@@ -17,36 +19,39 @@
     padding-right: 10%; 
 } 
 
+
 #customerservice {
     margin-left: 100px;
     position: static;
-}
+};
 
 #aboutus {
     float: right;
     margin-right: 20px;
     position: static;
-}
+};
 
 #home {
     float: left;
     margin-left: 20px;
     position: static;
 }
+
+
 #asideleft {
     margin-top: 20px;
     position: static;
     width: 50%;
     border: 1px solid #ccc;
-    /* margin-bottom: 100px; */
 }
+
 #asideright {
     position: static;
     float: right;
     width: 49%;
     border: 1px solid #ccc;
     margin-bottom: 100px;
-    
+  
 
 }
 
