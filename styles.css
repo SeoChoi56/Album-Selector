@@ -39,7 +39,7 @@ h2 {
     text-align: center;
     justify-content: space-between;
     /* flex-direction: column; */
-    /* position: static; */
+    position: relative;
 }
 
 #mycart{
@@ -56,13 +56,13 @@ h2 {
 
 #aboutus {
     float: right;
-    margin-right: 20px;
-    position: static;
+    margin-right: 35px;
+    
 }
 
 #home {
     float: left;
-    margin-left: 20px;
+    margin-left: 35px;
     position: static;
 }
 #asideleft {
@@ -70,7 +70,7 @@ h2 {
     position: static;
     width: 50%;
     border: 1px solid #ccc;
-    
+    margin-left: 10px;
 }
 #asideright {
     position: static;
@@ -78,6 +78,7 @@ h2 {
     width: 49%;
     border: 1px solid #ccc;
     margin-bottom: 100px;
+    margin-right: 10px;
     
 
 }
@@ -89,6 +90,8 @@ h2 {
 }
 #flexcontainer {
     display: flex;
+    
+   
 }
 
 aside:nth-child(1) {
@@ -98,11 +101,17 @@ aside:nth-child(1) {
 aside:nth-child(2) {
     margin-top: 20px;
     height: 600px;
+    
 }
 
 #flexchild {
     flex: 1;
     border: 2px solid #ccc;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #5584AC;
+    
+    
 }
 
 #albuminfo {
@@ -119,12 +128,19 @@ aside:nth-child(2) {
 
 #albumcover {
     font-family: 'Montserrat', sans-serif;
-    padding-left: 10%;
+    padding-left: 3%;
     color: #F1F1F1;
     text-shadow: -1px 1px 2px #000,
 				  1px 1px 2px #000,
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
+}
+
+#vinylcollection {
+    padding-top: 10%;
+    width: 80%;
+    height: 60%;
+    opacity: .7;
 }
 
 #albumimg {
@@ -149,6 +165,7 @@ aside:nth-child(2) {
 }
 
 #footer {
+    margin-top: 20px;
     margin-bottom: 20px;
     background-color: #F1F1F1;
     border: 1px solid #ccc;
