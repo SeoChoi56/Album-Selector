@@ -1,9 +1,27 @@
+#body {
+    background-color: #EAF6F6;
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+}
+
 #header, #nav {
+    background-color: #F1F1F1;
     border: 1px solid #ccc;
+    border-color: #6E85B7;
     text-align: center;
     width: 100%;
     margin-top: 20px;
 }
+
+.h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #mycart, #customerservice, #home, #aboutus {
     display: inline-flex;
     text-align: center;
@@ -18,8 +36,10 @@
 } 
 
 #customerservice {
-    margin-left: 100px;
-    position: static;
+    padding-left: 20%;
+    padding-right: 10%;
+    /* margin-left: 100px; */
+    /* position: static; */
 }
 
 #aboutus {
@@ -38,7 +58,7 @@
     position: static;
     width: 50%;
     border: 1px solid #ccc;
-    /* margin-bottom: 100px; */
+    
 }
 #asideright {
     position: static;
@@ -51,6 +71,7 @@
 }
 
 #asideleft, #asideright {
+    background-color: #F1F1F1;
     text-align: center;
     display: inline-flex;
 }
@@ -58,13 +79,40 @@
     display: flex;
 }
 
+aside:nth-child(1) {
+    height: 400px;
+}
+
+aside:nth-child(2) {
+    margin-top: 20px;
+    height: 600px;
+}
+
 #flexchild {
     flex: 1;
     border: 2px solid #ccc;
 }
 
+#albuminfo {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1F1F1;
+    padding-left: 10%;
+}
+
+#albumcover {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10%;
+}
+
+#albumform {
+    background-color: #F1F1F1;
+    padding-top: 10%;
+}
+
 #footer {
+    background-color: #F1F1F1;
     border: 1px solid #ccc;
+    border-color: #6E85B7;
     text-align: center;
     width: 100%;
     padding-top: 5%;
