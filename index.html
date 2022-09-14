@@ -4,20 +4,20 @@
         <meta>
         <title>Album Selector</title>
         <link rel="stylesheet" href="./styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"/>
         <script defer src="./script.js"></script>
     </head>
-        <body>
 
+        <body id="body" >
             <header id = 'header'>
-                <h2>Header</h2>
+                <h2 id="h2">Vinyl Album Selector</h2>
             </header>
             <nav class="nav">
 
-                <div id="home"><h3>Home</h3></div>
-                <div id="mycart"><h3>My Cart</h3></div>
-                <div id="customerservice"><h3>Customer Service</h3></div>
-                <div id="aboutus"><h3>About us</h3></div>
-
+                <div id="home"><h3 class="h3">Home</h3></div>
+                <div id="mycart"><h3 class="h3">My Cart</h3></div>
+                <div id="customerservice"><h3 class="h3">Customer Service</h3></div>
+                <div id="aboutus"><h3 class="h3">About us</h3></div>
             </nav>
             <section> 
             <div id="flexcontainer">
@@ -26,6 +26,9 @@
                         <h3 id="albuminfo">Album info</h3>
                         <form id="albumform">
                             <div>
+                                <br>
+                                <br>
+
                             <label for="albumname"> Album Name:</label>
                             <input type="text" id="albumname" name =" albumname" placeholder="Vinyl" required>
                             </div>
@@ -51,6 +54,9 @@
                     </aside>    
                     <aside id="asideright">
                         <h3 id="albumcover">Album cover</h3>
+                        <div class="albumimg">
+                            
+                        </div>
                     </aside>
                 </div>
                 
