@@ -17,6 +17,8 @@ h2 {
 #header, #nav {
     background-color: #F1F1F1;
     border: 1px solid #ccc;
+    /* border-bottom: dotted;
+    border-bottom-width: 3px; */
     border-color: #6E85B7;
     text-align: center;
     width: 100%;
@@ -26,6 +28,11 @@ h2 {
 
 .h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #F1F1F1;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 #mycart, #customerservice, #home, #aboutus {
@@ -106,14 +113,41 @@ aside:nth-child(2) {
 }
 
 #albuminfo {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     background-color: #F1F1F1;
     padding-left: 10%;
+    color: #F1F1F1;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 #albumcover {
     font-family: 'Montserrat', sans-serif;
     padding-left: 10%;
+    color: #F1F1F1;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+#albumimg {
+    
+    
+}
+
+#albumpicdiv {
+    margin: 3px 3px auto 3px;
+    border: 1px solid #ccc;
+}
+
+
+#tracklistdiv {
+    margin: 3px 3px auto 3px;
+    border: 1px solid #ccc;
 }
 
 #albumform {
@@ -122,10 +156,22 @@ aside:nth-child(2) {
 }
 
 #footer {
+    margin-bottom: 20px;
     background-color: #F1F1F1;
     border: 1px solid #ccc;
     border-color: #6E85B7;
     text-align: center;
     width: 100%;
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    color: #EAF6F6; 
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
+
