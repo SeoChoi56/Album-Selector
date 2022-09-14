@@ -25,6 +25,7 @@ h2 {
     margin-top: 20px;
 }
 
+
 .h3 {
     font-family: 'Montserrat', sans-serif;
     color: #F1F1F1;
@@ -38,6 +39,7 @@ h2 {
     display: inline-flex;
     text-align: center;
     justify-content: space-between;
+
     /* flex-direction: column; */
     position: relative;
 }
@@ -47,7 +49,9 @@ h2 {
     padding-right: 10%; 
 } 
 
+
 #customerservice {
+
     padding-left: 20%;
     padding-right: 10%;
     /* margin-left: 100px; */
@@ -57,14 +61,16 @@ h2 {
 #aboutus {
     float: right;
     margin-right: 35px;
-    
 }
+
 
 #home {
     float: left;
     margin-left: 35px;
     position: static;
 }
+
+
 #asideleft {
     margin-top: 20px;
     position: static;
@@ -72,6 +78,7 @@ h2 {
     border: 1px solid #ccc;
     margin-left: 10px;
 }
+
 #asideright {
     position: static;
     float: right;
@@ -79,8 +86,6 @@ h2 {
     border: 1px solid #ccc;
     margin-bottom: 100px;
     margin-right: 10px;
-    
-
 }
 
 #asideleft, #asideright {
@@ -184,3 +189,4 @@ aside:nth-child(2) {
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
+
