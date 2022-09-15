@@ -1,69 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta>
-        <title>Album Selector</title>
-        <link rel="stylesheet" href="./styles.css"/>
-        <script defer src="./script.js"></script>
-    </head>
-        <body>
-            <header class = 'header'>
-                <h2>SNT Album Store</h2>
-            </header>
-            <nav class="nav">
 
-                <div id="home"><h3>Home</h3></div>
-                <div id="mycart"><h3>My Cart</h3></div>
-                <div id="customerservice"><h3>Customer Service</h3></div>
-                <div id="aboutus"><h3>About us</h3></div>
+<head>
+    <meta>
+    <title>Album Selector</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" />
+    <link rel="icon" href="vinyl-favicon.ico" />
+    <script defer src="./script.js"></script>
+</head>
 
-                
+<body id="body">
+    <header id='header'>
+        <h2>Vinyl Album Selector</h2>
+    </header>
+    <nav class="nav">
 
-          
-                
+        <div id="home">
+            <h3 class="navheader">Home</h3>
+        </div>
+        <div id="contactus">
+            <h3 class="navheader">Contact Us</h3>
+        </div>
+        <div id="aboutus">
+            <h3 class="navheader">About Us</h3>
+        </div>
+    </nav>
 
-            </nav>
-            <section> 
-            <div>
-                <div>
-                <aside class="aside-left">
-                    <h3 id="album-info">Album info</h3>
-                    <form class="album-form">
-                        <div>
-                        <label for="album-name"> Album Name:</label>
-                        <input type="text" id="album-name" name =" album-name" placeholder="Vinyl" required>
-                        </div>
+    <div id="HomeScreen">
+        <iframe id= "videoTN" width="420" height="345" src=""></iframe>
+       <h2 id="vinylTitle">Title</h2>
+       <h3 id="artistName">Artist</h3>
+       <p>Tracklist:</p>
+       <ul id="tracklist">
+       </ul>
+       <button id ="randomize">Random Me!</button>
+    </div>
 
-                        <br>
+    <form id="ContactUs">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="userName">
+        <label for="email">E-Mail: </label>
+        <input type="text" name="email" id="userEMail">
+        <label for="comment">Comments: </label>
+        <input type="text" name="comment" id="userComments" onfocus= "this.value=''" value="Please Tell Us Your Thoughts!">
+        <input type="submit" value="Comment" id="alertComment">
+    </form>
 
-                        <div>
-                        <label for="artist-name"> Artist Name:</label>
-                        <input type="text" id="artist-name" name =" artist-name" placeholder="Artist" required>
-                        </div>
+    <div id="Bio">
+        <h2>Neftali Cespedes</h2>
+        <p></p>
+        <h2>Seo Choi</h2>
+        <p>Age: 28</p>
+        <p>Favorite-Genre: Rock</p>
+    </div>
 
-                        <br>
-                        <div>
-                            <input type="reset">
-                        </div>
-
-                        <br>
-
-                        <div>
-                            <input type= "submit">
-                        </div>
-
-
-                    </form>
-                </aside> 
-                </div>
-                <div>
-                <aside class="aside-right">
-                    <h3 id="album-cover">Album cover</h3>
-                </aside>
-                </div>
-            </div>    
-            </section>
+    <footer id="footer">
+        <h2>Vinyl Album Selector</h2>
+    </footer>
 
 
-        </body>
+</body>
+
 </html>
