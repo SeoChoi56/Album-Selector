@@ -17,6 +17,7 @@ const commentAlert = document.querySelector("#ContactUs")
 let tracklistHolder = []
 const totalReleases = 15589841
 
+
 document.addEventListener("DOMContentLoaded", () => {
     homeButton.addEventListener("click", showHomePage)
     custService.addEventListener("click", showContactUs)
