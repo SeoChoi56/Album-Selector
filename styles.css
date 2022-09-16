@@ -24,7 +24,6 @@ h2 {
     
 }
 
-
 /* .navheader {
     font-family: 'Montserrat', sans-serif;
     color: #F1F1F1;
@@ -55,8 +54,6 @@ h2 {
     margin-left: 100px; 
     position: static;
 } */
-
-
 
 #asideleft {
     margin-top: 10%;
@@ -109,7 +106,6 @@ aside:nth-child(2) {
     
 }
 
-
 #albuminfo {
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -150,11 +146,22 @@ aside:nth-child(2) {
 #welcome {
     text-align: center;
     width: 100%;
-   
-   
-    
+       
 }
 
+#vinyltitlediv {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    float: left;
+    /* padding-top: 30%; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#vinyltitle {
+     
+}
 
 #vinyltitlediv {
     width: 600px;
@@ -183,7 +190,6 @@ aside:nth-child(2) {
     margin-right: 30px;
     background-color: #ccc;
 }
-
 
 #artistnamediv {
    width: 400px;
@@ -223,7 +229,6 @@ aside:nth-child(2) {
     overflow-y: scroll;
 }
 
-
 #tracklistdiv {
     margin: 3px;
     border: 3px solid #5584AC;
@@ -258,8 +263,6 @@ aside:nth-child(2) {
 				  -1px -1px 0 #000;
 }
 
-
-
 #HomeScreen{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -270,7 +273,6 @@ aside:nth-child(2) {
     /* position: relative;
     margin-left: 45%; */
 }
-
 
 #name, #email, #comments {
     padding-top: 5px;
@@ -297,7 +299,6 @@ aside:nth-child(2) {
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
-
 
 #home {
     text-align: center;
