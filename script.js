@@ -23,6 +23,7 @@ let tracklistHolder = []
 const totalReleases = 15589841
 
 // When the page loads, creates event listeners for Home, My Cart, Customer Service, and About Us tabs
+
 document.addEventListener("DOMContentLoaded", () => {
     homeButton.addEventListener("click", showHomePage)
     custService.addEventListener("click", showContactUs)

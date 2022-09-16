@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+    
+}
+
+
+
 #body {
     background-color: #EAF6F6;
-    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -163,6 +172,7 @@ aside:nth-child(2) {
     margin-top: -3%;
     text-overflow: ellipsis;
     white-space: nowrap;
+    padding-top: 2%;
     
 }
 
@@ -187,7 +197,7 @@ aside:nth-child(2) {
 }
 
 #videoTN {
-    margin-right: 500px;
+    margin-right: 450px;
     
 }
 
@@ -267,7 +277,7 @@ aside:nth-child(2) {
 #HomeScreen{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 700px;
+    margin-left: 500px;
     /* padding-left: 40%; */
     /* border: .01px dotted #ccc; */
     
@@ -333,14 +343,21 @@ aside:nth-child(2) {
 				  -1px -1px 0 #000;
 } */
 
-
+#nav {
+    text-align: center;
+    margin-left: 570px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: space-between;
+}
 
 #home, #aboutus, #contactus {
-    margin-top: 30px;
-    margin-left: 350px;
-    display:inline-flex;
+    /* margin-top: 30px;
+    margin-left: 350px; */
+    /* display:inline-flex; */
+    float:left;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     padding-left: 3%;
     color: #F1F1F1;
@@ -353,12 +370,16 @@ aside:nth-child(2) {
 
 
 #nefdiv {
-    margin-left: 800px;
+    padding-top: 2%;
+    text-align: center;
+    /* margin-left: 800px; */
     padding-bottom: 2%;
 }
 
 #seodiv {
-    margin-left: 800px;
+    text-align: center;
+    /* margin-left: 800px; */
+    padding-bottom: 5%;
 }
 
 h4 {
