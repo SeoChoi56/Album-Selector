@@ -180,7 +180,8 @@ aside:nth-child(2) {
     border: 5px solid #5584AC;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: #ccc;
+    background-color: #F1F1F1;
+    /* position: absolute; */
 }
 
 
@@ -246,7 +247,6 @@ aside:nth-child(2) {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
-
     font-weight: bold;
     font-size: 3rem;
     font-family: 'Sacramento', cursive;
