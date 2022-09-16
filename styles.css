@@ -160,13 +160,14 @@ aside:nth-child(2) {
     height: 50px;
     display: flex;
     float: left;
-    /* padding-top: 30%; */
+    margin-top: -3%;
     text-overflow: ellipsis;
     white-space: nowrap;
+    
 }
 
 #vinyltitle {
-    
+    margin-top: 100%;
 }
 
 #homescreendiv{
@@ -178,21 +179,26 @@ aside:nth-child(2) {
 #homescreendivchild {
     flex: 1;
     border: 5px solid #5584AC;
+    margin-top: -15px;
     margin-left: 30px;
     margin-right: 30px;
     background-color: #F1F1F1;
     /* position: absolute; */
 }
 
+#videoTN {
+    margin-right: 500px;
+    
+}
 
 #artistnamediv {
    width: 400px;
    height: 50px;
-   
+   margin-bottom: 0px;
 }
 
 #artistName {
-    margin-top: 100px;
+    margin-top: 90px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -238,11 +244,10 @@ aside:nth-child(2) {
 }
 
 #footer {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     background-color: #F1F1F1;
-    border: 1px solid #ccc;
-    border-color: #ccc;
+    border: 1px solid #5584AC;
     text-align: center;
     width: 100%;
     padding-top: 2%;
@@ -262,9 +267,9 @@ aside:nth-child(2) {
 #HomeScreen{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 1000px;
+    margin-left: 700px;
     /* padding-left: 40%; */
-    border: .01px dotted #ccc;
+    /* border: .01px dotted #ccc; */
     
     /* position: relative;
     margin-left: 45%; */
@@ -281,11 +286,15 @@ aside:nth-child(2) {
     margin-bottom: 5px;
 }
 
+#ContactUs {
+    margin-top: 10px;
+}
+
 #Bio {
     margin-left: 15px;
 }
 
-#aboutus {
+/* #aboutus {
     float: right;
     margin-right: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -299,11 +308,10 @@ aside:nth-child(2) {
 
 
 #home {
+    display: inline;
     text-align: center;
-    padding: 1% auto;
     margin-left: 10px;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 3%;
     color: #F1F1F1;
     text-shadow: -1px 1px 2px #000,
 				  1px 1px 2px #000,
@@ -314,6 +322,7 @@ aside:nth-child(2) {
 
 #contactus {
     float: left;
+    display: inline;
     margin-left: 70px;
     font-family: 'Montserrat', sans-serif;
     padding-left: 3%;
@@ -322,21 +331,34 @@ aside:nth-child(2) {
 				  1px 1px 2px #000,
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
+} */
+
+
+
+#home, #aboutus, #contactus {
+    margin-top: 30px;
+    margin-left: 350px;
+    display:inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 3%;
+    color: #F1F1F1;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+    
 }
 
-#img {
-    width: 50%;
-    margin-left: 350px;
-    opacity: .7;
-}
 
 #nefdiv {
-    margin-left: 900px;
+    margin-left: 800px;
     padding-bottom: 2%;
 }
 
 #seodiv {
-    margin-left: 740px;
+    margin-left: 800px;
 }
 
 h4 {
